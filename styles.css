@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    user-select: none;
+}
+
+body {
+    background:conic-gradient(from -270deg at 110% 50%, cadetblue, darkgreen);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 100vw;
+    height: 100vh;
+    font-size: 23px;
+    color: white;
+}
